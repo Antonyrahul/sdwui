@@ -20,6 +20,7 @@ def load_models(model_path: str, model_url: str = None, command_path: str = None
     @param ext_filter: An optional list of filename extensions to filter by
     @return: A list of paths containing the desired model(s)
     """
+    print("ajksdfhjkashjkdfghjkasdfghiuasdfasdghjkfasdhjklfasdbfhjklakhjasdfhjkasdfhjkasdfbjk",model_path,model_url)
     output = []
 
     if ext_filter is None:

@@ -3,6 +3,7 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=
+set COMMANDLINE_ARGS= --precision full --no-half --xformers --listen --enable-insecure-extension-access --lowvram --always-batch-cond-uncond
+
 
 call webui.bat
